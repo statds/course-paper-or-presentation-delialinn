@@ -1,0 +1,143 @@
+\documentclass[12pt]{article}
+
+%% preamble: Keep it clean; only include those you need
+\usepackage{amsmath}
+\usepackage[margin = 1in]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{natbib}
+\usepackage{enumitem}
+
+% for space filling
+\usepackage{lipsum}
+% highlighting hyper links
+\usepackage[colorlinks=true, citecolor=blue]{hyperref}
+
+
+%% meta data
+
+\title{Proposal: Bridging Gaps: Investigating COVID-19's Influence on Health Disparities in Connecticut}
+\author{Delia Lin\\
+  Department of Statistics\\
+  University of Connecticut
+}
+
+\begin{document}
+\maketitle
+
+
+\paragraph{Introduction}
+Social determinants of health (SDOH) are the conditions in which people are born, 
+grow, live, work, and age, which significantly influence their overall health and 
+well-being. These determinants include factors such as socioeconomic status, education, 
+access to healthcare, and the physical environment. Understanding the interactions of 
+these elements will be essential for addressing health disparities and developing more 
+effective public health policies and interventions.
+
+Current research focuses on how social determinants of health (SDoH) plays a  massive
+impact on one's health; it is estimated that 80 percent of a population's health outcomes are 
+dictated by SDoH \citep{HOOD2016129}. Often, SDoH, when referring to an individual, can result in racial 
+disparities in care when looking at a population\citep{Monroe2023-uq}. It has been shown that major inefficiencies
+in the health system are attributed to overlooked prevention opportunities and unequal access
+to care.\citep{Allin2014-xn}
+
+\paragraph{Specific Aims}
+The question aims to assess the influence of COVID-19 on key social determinants of health 
+within various counties and racial groups in Connecticut. While the influence of social factors 
+on healthcare access is widely acknowledged, this research question was selected to address the 
+pressing need for understanding how the pandemic amplified existing disparities across diverse 
+communities. By investigating these factors, we can identify the 
+specific ways in which different communities were affected, providing insights for 
+targeted interventions, policy-making, and equitable healthcare strategies. 
+Current research has shown that in the United States, predominantly black counties experience a 
+COVID-19 infection rate that is threefold higher and a mortality rate that is six times higher 
+compared to predominantly white counties \citep{Yancy2020-cz}. In addition, during the pandemic, mortality 
+rates among historically marginalized minority communities have been 1.9 to 2.4 times higher 
+compared to the general population.\citep{Badalov2022-wt}
+
+Research question: What is the extent of COVID-19's impact on social determinants of health factors, including socioeconomic status, housing, transportation, and Medicare access, when comparing the counties and racial groups in Connecticut? 
+
+Statistical Questions:
+\begin{enumerate}
+\item
+What is the racial composition within each county?
+\item
+Is there a correlation between median income and racial identification between the counties?
+\item
+Is there a correlation between median income and education between the counties?
+\item
+Is there a difference between transportation accessibility between the counties in Connecticut?
+\item
+Is there a difference between primary care physician shortage percentages between counties?
+\item
+Was there an impact on the median household income for any specific racial groups or counties during the year 2020?
+\item
+Was there a shift in the proportion of the population within different poverty ratios in Connecticut during the year 2020?
+\item
+Was there a reduction in the percentage of housing units with heating in Connecticut during the year 2020?
+\item
+Was there a shift in the percentage of Connecticut's population covered by Medicaid or lacking insurance during the year 2020?
+\end{enumerate}
+
+
+\paragraph{Data}
+Data was collected from The Agency for Healthcare Research and Quality (AHRQ).
+The dataset comprises 64 variables spanning a period of 4 years (2017--2020) 
+with observations across the 8 counties in Connecticut. These variables encompass 
+a total of 2048 observations. The variables questions include housing, education level, 
+income, access to electronic devices, transportation, ESL, and population racial characteristics. 
+The dataset includes a range of calculated percentages, median values, and raw observations, 
+providing a holistic view of various factors affecting the communities in these counties. 
+
+
+
+\paragraph{Research Design and Methods}
+
+In this study, descriptive statistics will be utilized to outline the racial composition, 
+median incomes, education levels, transportation accessibility, and healthcare indicators 
+across different counties and racial groups in Connecticut. Multivariable logistic regression 
+will be used to estimate the adjusted odds ratio associations for different SDH factors on 
+racial identification over the study period.\citep{Cova2023-yw} Additionally, chi-squared tests will be employed 
+to assess significant shifts in population percentages between counties over the span of the 4 years.\citep{Lua2023-tp}
+
+
+\paragraph{Discussion}
+The most challenging part of this investigation would be working with the dataset which 
+involves multiple variables and diverse demographics. Managing missing or incomplete data points,
+and addressing potential biases in the dataset resulting from surveys are important. 
+
+One limitation lies in the availability and quality of data. This dataset does not have any data 
+from years after 2020 which may serve to limit potential external validity considerations. There may
+also be variability in data collection methods and discrepancies in reporting standards leading to 
+missing or incomplete data over the course of 4 years. Another limitation involves the scope of the 
+study, focusing on specific counties in Connecticut may not fully capture nationwide disparities. 
+Additionally, the research is limited to the factor parameters selected to investigate which  might 
+not encompass all relevant social determinants affecting health outcomes.
+
+In the face of unexpected events, I will prioritize transparency. If data limitations arise, efforts 
+will be made to clearly document these constraints and their potential impact on the study's conclusions. 
+If the impact of COVID is not well represented by the incomplete data in this dataset, I will also look 
+into obtaining other existing datasets with observations collected during the study period and after 2020 
+to ensure comprehensiveness. Open communication about challenges and potential limitations will be 
+maintained to ensure the research's integrity and to provide a foundation for future studies in the field.
+
+Following analysis, I expect to find a greater prevalence of social risk factors within minority populations, 
+counties with lower median income will have a greater proportion of minority populations, and social risk 
+factors display increasing trends in 2020. These expectations stem from recent reports that have shown that 
+minority populations have been disproportionately impacted by the effects of the COVID-19 pandemic. The impact 
+of this work lies in informing targeted interventions, policy-making, and resource allocation to alleviate 
+current healthcare inequities remnant of the pandemic as well as inform future action. Even if the results 
+of this investigation are not what I expected, any conclusions that can be made about socioeconomic factors 
+between counties are important for future policies.
+
+This research proposal delves into the impact of COVID-19 on social determinants of health, focusing on 
+socioeconomic status, housing, transportation, and Medicare access among Connecticut counties and racial groups. 
+Through this research, I hope to be able to enhance the understanding of the connections between social 
+determinants and health outcomes specifically in Connecticut, fostering positive changes in healthcare 
+systems and advocating for a more equitable society.
+
+
+\bibliography{../manuscript/ref}
+\bibliographystyle{chicago}
+
+\end{document}
