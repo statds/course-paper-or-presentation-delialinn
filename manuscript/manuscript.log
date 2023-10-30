@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.25)  30 OCT 2023 04:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.25)  30 OCT 2023 11:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/delialin/Desktop/github/stat/course-paper-or-presentation-delialinn/manuscript/manuscript
+**/Users/delialin/Desktop/github/stat/course-paper-or-presentation-delialinn/manuscript/manuscript.tex
 (/Users/delialin/Desktop/github/stat/course-paper-or-presentation-delialinn/manuscript/manuscript.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
@@ -269,8 +269,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip55
-)
-No file manuscript.aux.
+) (./manuscript.aux)
 \openout1 = `manuscript.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -291,6 +290,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -351,203 +351,66 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx))
 Package hyperref Info: Link coloring ON on input line 22.
+ (./manuscript.out) (./manuscript.out)
 \@outlinefile=\write3
 \openout3 = `manuscript.out'.
 
+ [1
+
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+
+LaTeX Warning: Reference `tab:rv' on page 3 undefined on input line 121.
 
 
-Package natbib Warning: Citation `dwivedi2017analysis' on page 1 undefined on input line 40.
-
-
-Package natbib Warning: Citation `xie2015dynamic' on page 1 undefined on input line 40.
-
-
-LaTeX Warning: Reference `sec:data' on page 1 undefined on input line 46.
-
-
-LaTeX Warning: Reference `sec:meth' on page 1 undefined on input line 48.
-
-
-LaTeX Warning: Reference `sec:resu' on page 1 undefined on input line 50.
-
-
-LaTeX Warning: Reference `sec:disc' on page 1 undefined on input line 52.
-
-[1
-
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-LaTeX Warning: Reference `eq:mc2' on page 2 undefined on input line 63.
-
-[2]
-
-LaTeX Warning: Reference `eq:area' on page 3 undefined on input line 75.
-
-
-LaTeX Warning: Reference `tab:rv' on page 3 undefined on input line 88.
-
-[3]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 96.
-
-
-/Users/delialin/Desktop/github/stat/course-paper-or-presentation-delialinn/manuscript/manuscript.tex:96: LaTeX Error: Not in outer par mode.
+/Users/delialin/Desktop/github/stat/course-paper-or-presentation-delialinn/manuscript/manuscript.tex:124: LaTeX Error: Unknown float option `H'.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.96   \begin{table}[]
+l.124 \begin{table}[H]
                       
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Option `H' ignored and `p' used.
 
 
-Overfull \hbox (894.25731pt too wide) in paragraph at lines 97--113
-[][] 
+Overfull \hbox (721.0538pt too wide) in paragraph at lines 128--148
+ [][] 
  []
 
-/Users/delialin/Desktop/github/stat/course-paper-or-presentation-delialinn/manuscript/manuscript.tex:114: Misplaced \noalign.
-\bottomrule ->\noalign 
-                       {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global...
-l.114    \bottomrule
-                    
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
 
-/Users/delialin/Desktop/github/stat/course-paper-or-presentation-delialinn/manuscript/manuscript.tex:115: Missing } inserted.
-<inserted text> 
-                }
-l.115 \end
-          {tabular}
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/delialin/Desktop/github/stat/course-paper-or-presentation-delialinn/manuscript/manuscript.tex:115: Missing } inserted.
-<inserted text> 
-                }
-l.115 \end
-          {tabular}
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/delialin/Desktop/github/stat/course-paper-or-presentation-delialinn/manuscript/manuscript.tex:115: Missing } inserted.
-<inserted text> 
-                }
-l.115 \end
-          {tabular}
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/delialin/Desktop/github/stat/course-paper-or-presentation-delialinn/manuscript/manuscript.tex:115: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.115 \end
-          {tabular}
-I'm guessing that you meant to end an alignment here.
-
-/Users/delialin/Desktop/github/stat/course-paper-or-presentation-delialinn/manuscript/manuscript.tex:115: Missing { inserted.
-<inserted text> 
-                {
-l.115 \end
-          {tabular}
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-/Users/delialin/Desktop/github/stat/course-paper-or-presentation-delialinn/manuscript/manuscript.tex:115: Undefined control sequence.
-\@BTrule ...\doublerulesep \fi \fi \fi \@BTswitch 
-                                                  
-l.115 \end
-          {tabular}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/delialin/Desktop/github/stat/course-paper-or-presentation-delialinn/manuscript/manuscript.tex:115: Misplaced \crcr.
-<recently read> \crcr 
-                      
-l.115 \end{tabular}
-                   
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-/Users/delialin/Desktop/github/stat/course-paper-or-presentation-delialinn/manuscript/manuscript.tex:115: Extra }, or forgotten $.
-\endtabular ->\crcr \egroup \egroup 
-                                    $\egroup 
-l.115 \end{tabular}
-                   
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-LaTeX Warning: Reference `fig:cars' on page 4 undefined on input line 118.
+LaTeX Warning: Reference `fig:income by town' on page 3 undefined on input line 150.
 
 
 
 pdfTeX warning: pdflatex (file ./Income by year.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Income by year.pdf, id=32, 385.45982pt x 337.27734pt>
+<Income by year.pdf, id=51, 385.45982pt x 337.27734pt>
 File: Income by year.pdf Graphic file (type pdf)
 <use Income by year.pdf>
-Package pdftex.def Info: Income by year.pdf  used on input line 121.
+Package pdftex.def Info: Income by year.pdf  used on input line 153.
 (pdftex.def)             Requested size: 469.75502pt x 411.05576pt.
-
-Package natbib Warning: Citation `wild2004global' on page 4 undefined on input line 134.
-
-
-Package natbib Warning: Citation `wild2004global' on page 4 undefined on input line 135.
-
-No file manuscript.bbl.
-
-Package natbib Warning: There were undefined citations.
-
-[4] [5 <./Income by year.pdf>] (./manuscript.aux)
+(./manuscript.bbl) [3] [4 <./Income by year.pdf>] [5] (./manuscript.aux)
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-Package rerunfilecheck Warning: File `manuscript.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `manuscript.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  A2DA40BC6B073A49D78286FDB82EC60D;415.
+Package rerunfilecheck Info: File `manuscript.out' has not changed.
+(rerunfilecheck)             Checksum: 15C41A1F42F723D0B844AE4727248A13;400.
  ) 
 Here is how much of TeX's memory you used:
- 10259 strings out of 476025
- 165175 string characters out of 5790017
- 1861388 words of memory out of 5000000
- 30576 multiletter control sequences out of 15000+600000
- 518881 words of font info for 55 fonts, out of 8000000 for 9000
+ 10286 strings out of 476025
+ 165619 string characters out of 5790017
+ 1866388 words of memory out of 5000000
+ 30592 multiletter control sequences out of 15000+600000
+ 519228 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,17n,77p,388b,443s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on manuscript.pdf (5 pages, 153295 bytes).
+ 75i,8n,77p,383b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on manuscript.pdf (5 pages, 147927 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
+ 17 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
