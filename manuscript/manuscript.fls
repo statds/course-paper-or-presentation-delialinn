@@ -620,6 +620,7 @@ INPUT ./Income by town.pdf
 INPUT Income by town.pdf
 INPUT ./Income by town.pdf
 INPUT ./Income by town.pdf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT ./manuscript.bbl
 INPUT manuscript.bbl
 INPUT ./manuscript.bbl
