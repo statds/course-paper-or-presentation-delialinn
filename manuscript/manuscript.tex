@@ -42,47 +42,25 @@ disparities in care when looking at a population\citep{Monroe2023-uq}. It has be
 in the health system are attributed to overlooked prevention opportunities and unequal access
 to care.\citep{Allin2014-xn}
 
-**Housing:**
-Access to stable and safe housing is a crucial social determinant of health. During the COVID-19 pandemic, 
-housing disparities have become more pronounced. Low-income communities, often comprising a disproportionate 
-number of people of color, face challenges in maintaining secure housing due to job losses and financial strain 
-caused by the pandemic. 
+Understanding the intricate interplay of these social determinants is crucial in addressing health disparities 
+and developing effective public health policies and interventions. The COVID-19 pandemic has shed new light on 
+these disparities, amplifying existing inequalities within various communities. This research topic gains paramount 
+importance in the current context as it seeks to delve into the specific impact of COVID-19 on key social determinants 
+of health in different counties and racial groups in Connecticut.
 
+The existing literature underscores the pressing need for research in this area. Studies have shown that predominantly 
+black counties in the United States experience significantly higher COVID-19 infection and mortality rates, emphasizing 
+the racial disparities prevalent in healthcare outcomes. The pandemic has magnified these discrepancies, leading to 
+mortality rates among historically marginalized minority communities that are 1.9 to 2.4 times higher compared to the 
+general population \citep{Badalov2022-wt}. Additionally, inefficiencies in the healthcare system have been attributed 
+to overlooked prevention opportunities and unequal access to care, necessitating a comprehensive examination 
+of these social determinants in the context of the pandemic.
 
-**Income and Poverty:**
-Income and poverty levels significantly impact health outcomes. People with lower incomes often have limited 
-access to healthcare, proper nutrition, and education. COVID-19 has exacerbated these disparities, especially 
-among communities of color. Many individuals in low-income jobs, particularly those in service industries, have 
-been unable to work remotely, increasing their exposure to the virus. Additionally, the economic downturn induced 
-by the pandemic has led to increased poverty rates, deepening existing health inequalities.
-
-
-**Insurance:**
-Health insurance plays a crucial role in determining access to healthcare services. Individuals without insurance 
-or with limited coverage face barriers in receiving timely and adequate medical care, especially during a health 
-crisis like COVID-19. Racial minorities are disproportionately represented among the uninsured population, amplifying 
-the disparities in healthcare access. The pandemic has highlighted the necessity of comprehensive healthcare coverage 
-for all, emphasizing the need to address racial disparities in insurance coverage to ensure health equity.
-
-**Education:**
-Education is a crucial social determinant of health, shaping individuals' knowledge, behaviors, and opportunities.
-Higher educational attainment is linked to better health outcomes, as educated individuals are more likely to adopt 
-healthier lifestyles, access healthcare services, and make informed decisions about their well-being. Unfortunately, 
-there exists a significant racial disparity in educational opportunities and outcomes. Historically marginalized 
-communities, particularly people of color, often face challenges such as underfunded schools, limited access to 
-quality education, and higher dropout rates. These disparities not only affect economic opportunities but also impact
-overall health. Limited access to education hampers health literacy, making it harder for individuals to understand 
-health information and navigate the healthcare system effectively. Additionally, it perpetuates cycles of poverty and 
-limited access to healthcare among racial minorities, leading to poorer health outcomes.
-
-**Rehospitalization Rate:**
-The rehospitalization rate is a critical indicator of the effectiveness of healthcare services and the overall 
-health of a community. Racial disparities in healthcare access and quality contribute to differences in 
-rehospitalization rates. During the COVID-19 pandemic, inadequate access to healthcare services, underlying 
-health conditions, and social determinants such as housing instability have contributed to higher rehospitalization 
-rates among racial minorities. Addressing these disparities requires targeted interventions to improve healthcare access, 
-quality, and social support systems for marginalized communities.
-
+Despite the growing body of research on SDOH, there is a notable gap concerning the specific impact of COVID-19 on 
+these determinants within diverse communities. This research aims to bridge this gap by comprehensively assessing how 
+the pandemic has influenced key social determinants of health across various counties and racial groups in Connecticut. 
+By identifying the specific ways in which different communities were affected, this study contributes valuable insights 
+for targeted interventions, policy-making, and the development of equitable healthcare strategies.
 
 
 % roadmap
@@ -96,35 +74,33 @@ The results are reported in Section\ref{sec:resu}
 
 A discussion concludes in Section\ref{sec:disc}
 
-\section{Data}\label{sec:meth}
+\section{Methods}\label{sec:meth}
 
 In this study, descriptive statistics is utilized to outline the total population, racial composition, 
 education levels, and average rehospitalization rate across the 8 counties in Connecticut. ANOVA tests were 
 conducted to assess the significance of the difference of the variables of median income, poverty level, health insurance, 
-utilities access, and electronics access between counties and across the four years(2017, 2018, 2019, 2020). Additional 
-Tukey’s HSD tests were conducted to determine the specific counties and years that have had significant differences within 
+utilities access, and electronics access between counties and across the four years (2017, 2018, 2019, 2020). Additional 
+Tukey's HSD tests were conducted to determine the specific counties and years that have had significant differences within 
 each of the variables for each county.
 
 \section{Data}\label{sec:data}
 
-Data was collected from The Agency for Healthcare Research and Quality(AHRQ).The dataset comprises 7 variables 
-spanning a period of 4 years (2017-2020) with observations across the 8 counties in Connecticut. These variables 
+Data was collected from The Agency for Healthcare Research and Quality (AHRQ).The dataset comprises 7 variables 
+spanning a period of 4 years (2017, 2018, 2019, 2020) with observations across the 8 counties in Connecticut. These variables 
 encompass a total of 56 observations. The variables questions include housing, education level, income, insurance,
- rehospitalization rates, food stamps usage, and population racial characteristics. The dataset includes a range of 
- calculated percentages, median values, and raw observations, providing a holistic view of various factors affecting 
- the communities in these counties. 
+rehospitalization rates, food stamps usage, and population racial characteristics. The dataset includes a range of 
+calculated percentages, median values, and raw observations, providing a holistic view of various factors affecting 
+the communities in these counties. 
 
 
 \section{Results}\label{sec:resu}
 
 
-Table\ref{tab:rv} summarizes some example draws from some distributions.
-\lipsum[1]
+ 
 
-\begin{table}[H]
+\begin{table}[h]
     \centering
-    \caption{Population, Race, Ethnicity, Rehospitalization Rates, and Education in Connecticut Counties}
-    \label{tab:connecticut-counties}
+    \caption{Demographics and Education Levels by County} \label{tab:connecticut-counties}
     \begin{tabular}{l|cccccccc}
     \hline
     \textbf{CATEGORY} & \textbf{Fairfield County} & \textbf{Hartford County} & \textbf{Litchfield County} & \textbf{Middlesex County} & \textbf{New Haven County} & \textbf{New London County} & \textbf{Tolland County} & \textbf{Windham County} \\ \hline
@@ -147,7 +123,7 @@ Table\ref{tab:rv} summarizes some example draws from some distributions.
     \end{tabular}
     \end{table}    
 
-Figure\ref{fig:income by town} shows the distance against the speed from this dataset.
+Figure\ref{fig:Income by town.pdf} shows the distance against the speed from this dataset.
 \begin{figure}[tbp]
   \centering
   \includegraphics[width=\textwidth]{Income by year.pdf}
