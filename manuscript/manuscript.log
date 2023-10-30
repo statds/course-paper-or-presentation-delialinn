@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.25)  30 OCT 2023 11:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.25)  30 OCT 2023 15:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -362,7 +362,7 @@ Package hyperref Info: Link coloring ON on input line 22.
  [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (721.0538pt too wide) in paragraph at lines 101--121
+Overfull \hbox (721.0538pt too wide) in paragraph at lines 102--121
  [][] 
  []
 
@@ -372,7 +372,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 pdfTeX warning: pdflatex (file ./Income by year.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Income by year.pdf, id=82, 385.45982pt x 337.27734pt>
+<Income by year.pdf, id=83, 385.45982pt x 337.27734pt>
 File: Income by year.pdf Graphic file (type pdf)
 <use Income by year.pdf>
 Package pdftex.def Info: Income by year.pdf  used on input line 126.
@@ -380,31 +380,36 @@ Package pdftex.def Info: Income by year.pdf  used on input line 126.
 
 
 pdfTeX warning: pdflatex (file ./Income by town.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Income by town.pdf, id=83, 385.45982pt x 382.44841pt>
+<Income by town.pdf, id=84, 385.45982pt x 382.44841pt>
 File: Income by town.pdf Graphic file (type pdf)
 <use Income by town.pdf>
 Package pdftex.def Info: Income by town.pdf  used on input line 132.
 (pdftex.def)             Requested size: 469.75502pt x 466.10786pt.
-[2] [3 <./Income by year.pdf>] [4 <./Income by town.pdf>] [5] (./manuscript.bbl [6]) [7] (./manuscript.aux)
+[2] [3 <./Income by year.pdf>] [4 <./Income by town.pdf>]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 145.
+
+[5] [6] (./manuscript.bbl) [7] (./manuscript.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
-(rerunfilecheck)             Checksum: E031BA660C9B84C023C69875737E9EB2;1574.
+(rerunfilecheck)             Checksum: 778C53696E5F4EEE8795890AA79FF5D8;1654.
  ) 
 Here is how much of TeX's memory you used:
  10315 strings out of 476025
- 166136 string characters out of 5790017
- 1869388 words of memory out of 5000000
+ 166196 string characters out of 5790017
+ 1868388 words of memory out of 5000000
  30608 multiletter control sequences out of 15000+600000
  519535 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,77p,754b,546s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,77p,383b,443s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on manuscript.pdf (7 pages, 204875 bytes).
+Output written on manuscript.pdf (7 pages, 204943 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
- 125 compressed objects within 2 object streams
+ 153 PDF objects out of 1000 (max. 8388607)
+ 126 compressed objects within 2 object streams
  29 named destinations out of 1000 (max. 500000)
  115 words of extra memory for PDF output out of 10000 (max. 10000000)
 
