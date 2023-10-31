@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.25)  30 OCT 2023 15:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.25)  30 OCT 2023 20:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -269,31 +269,93 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip55
-) (./manuscript.aux
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen177
+\ar@mcellbox=\box54
+\extrarowheight=\dimen178
+\NC@list=\toks23
+\extratabsurround=\skip56
+\backup@length=\skip57
+\ar@cellbox=\box55
+)
+\TX@col@width=\dimen179
+\TX@old@table=\dimen180
+\TX@old@col=\dimen181
+\TX@target=\dimen182
+\TX@delta=\dimen183
+\TX@cols=\count294
+\TX@ftn=\toks24
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks25
+\XKV@tempa@toks=\toks26
+)
+\XKV@depth=\count295
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box56
+)
+\tc@llx=\dimen184
+\tc@lly=\dimen185
+\tc@urx=\dimen186
+\tc@ury=\dimen187
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen188
+\adjbox@Height=\dimen189
+\adjbox@Depth=\dimen190
+\adjbox@Totalheight=\dimen191
+\adjbox@pwidth=\dimen192
+\adjbox@pheight=\dimen193
+\adjbox@pdepth=\dimen194
+\adjbox@ptotalheight=\dimen195
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count296
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box57
+\sift@deathcycles=\count297
+\@vwid@loff=\dimen196
+\@vwid@roff=\dimen197
+)) (./manuscript.aux
 
 LaTeX Warning: Label `fig:cars' multiply defined.
 
 )
 \openout1 = `manuscript.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -331,17 +393,17 @@ LaTeX Font Info:    ... okay on input line 22.
 
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count294
-\scratchdimen=\dimen177
-\scratchbox=\box54
-\nofMPsegments=\count295
-\nofMParguments=\count296
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count297
-\MPscratchDim=\dimen178
-\MPnumerator=\count298
-\makeMPintoPDFobject=\count299
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count298
+\scratchdimen=\dimen198
+\scratchbox=\box58
+\nofMPsegments=\count299
+\nofMParguments=\count300
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count301
+\MPscratchDim=\dimen199
+\MPnumerator=\count302
+\makeMPintoPDFobject=\count303
+\everyMPtoPDFconversion=\toks28
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -354,7 +416,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 22.
+Package hyperref Info: Link coloring ON on input line 24.
  (./manuscript.out) (./manuscript.out)
 \@outlinefile=\write3
 \openout3 = `manuscript.out'.
@@ -362,54 +424,46 @@ Package hyperref Info: Link coloring ON on input line 22.
  [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (721.0538pt too wide) in paragraph at lines 102--121
- [][] 
- []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 100.
 
 
 
 pdfTeX warning: pdflatex (file ./Income by year.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Income by year.pdf, id=83, 385.45982pt x 337.27734pt>
+<Income by year.pdf, id=66, 385.45982pt x 337.27734pt>
 File: Income by year.pdf Graphic file (type pdf)
 <use Income by year.pdf>
-Package pdftex.def Info: Income by year.pdf  used on input line 126.
+Package pdftex.def Info: Income by year.pdf  used on input line 128.
 (pdftex.def)             Requested size: 469.75502pt x 411.05576pt.
 
 
 pdfTeX warning: pdflatex (file ./Income by town.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Income by town.pdf, id=84, 385.45982pt x 382.44841pt>
+<Income by town.pdf, id=67, 385.45982pt x 382.44841pt>
 File: Income by town.pdf Graphic file (type pdf)
 <use Income by town.pdf>
-Package pdftex.def Info: Income by town.pdf  used on input line 132.
+Package pdftex.def Info: Income by town.pdf  used on input line 134.
 (pdftex.def)             Requested size: 469.75502pt x 466.10786pt.
-[2] [3 <./Income by year.pdf>] [4 <./Income by town.pdf>]
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 145.
-
-[5] [6] (./manuscript.bbl) [7] (./manuscript.aux)
+[2] [3 <./Income by year.pdf>] [4 <./Income by town.pdf>] [5] (./manuscript.bbl) [6] (./manuscript.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
-(rerunfilecheck)             Checksum: 778C53696E5F4EEE8795890AA79FF5D8;1654.
+(rerunfilecheck)             Checksum: 4A952FE09F15879B978004B4284A4901;957.
  ) 
 Here is how much of TeX's memory you used:
- 10315 strings out of 476025
- 166196 string characters out of 5790017
- 1868388 words of memory out of 5000000
- 30608 multiletter control sequences out of 15000+600000
+ 11564 strings out of 476025
+ 188954 string characters out of 5790017
+ 1869388 words of memory out of 5000000
+ 31823 multiletter control sequences out of 15000+600000
  519535 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,77p,383b,443s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,77p,354b,443s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on manuscript.pdf (7 pages, 204943 bytes).
+Output written on manuscript.pdf (6 pages, 199343 bytes).
 PDF statistics:
- 153 PDF objects out of 1000 (max. 8388607)
- 126 compressed objects within 2 object streams
- 29 named destinations out of 1000 (max. 500000)
- 115 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 128 PDF objects out of 1000 (max. 8388607)
+ 102 compressed objects within 2 object streams
+ 23 named destinations out of 1000 (max. 500000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 

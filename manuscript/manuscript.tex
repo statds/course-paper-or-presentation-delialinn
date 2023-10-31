@@ -10,6 +10,8 @@
 \usepackage{lipsum}
 % highlighting hyper links
 \usepackage[colorlinks=true, citecolor=blue]{hyperref}
+\usepackage{tabularx}
+\usepackage{adjustbox}
 
 %% meta data
 
@@ -94,31 +96,31 @@ the communities in these counties.
 
 \section{Results}\label{sec:resu}
 
-\ref{tab:connecticut-counties}
 
-\begin{table}[h]
-    \centering
-    \caption{Demographics and Education Levels by County} \label{tab:connecticut-counties}
-    \begin{tabular}{l|cccccccc}
-    \hline
-    \textbf{CATEGORY} & \textbf{Fairfield County} & \textbf{Hartford County} & \textbf{Litchfield County} & \textbf{Middlesex County} & \textbf{New Haven County} & \textbf{New London County} & \textbf{Tolland County} & \textbf{Windham County} \\ \hline
-    Total Population & 944977 & 894465.25 & 182657.5 & 163318.25 & 858678 & 268477.75 & 151218.75 & 116608.75 \\
-    RACE &  &  &  &  &  &  &  &  \\
-    American Indian and Alaska Native race alone & 0.24 & 0.3075 & 0.2025 & 0.195 & 0.1725 & 0.605 & 0.05 & 0.565 \\
-    Asian & 5.2925 & 5.2925 & 1.9 & 3.0625 & 4.005 & 4.12 & 4.675 & 1.3675 \\
-    Black or African American & 11.405 & 13.7025 & 1.83 & 5.385 & 13.34 & 5.8175 & 3.1075 & 2.33 \\
-    Native Hawaiian and Pacific Islander & 0.055 & 0.035 & 0 & 0.005 & 0.0225 & 0.025 & 0 & 0.015 \\
-    White & 72.6325 & 70.67 & 92.6025 & 88.0875 & 73.2875 & 80.6175 & 88.025 & 88.8725 \\
-    Ethnicity &  &  &  &  &  &  &  &  \\
-    Hispanic & 19.53 & 17.8275 & 6.15 & 6.12 & 17.885 & 10.5 & 5.4475 & 11.6375 \\
-    Education &  &  &  &  &  &  &  &  \\
-    Associates & 20.74 & 25 & 27.9225 & 26.46 & 24.4175 & 29.2675 & 26.315 & 30.9775 \\
-    Bachelor & 26.53 & 21.4575 & 20.635 & 23.3325 & 18.785 & 18.3175 & 23.4075 & 14.595 \\
-    Graduate Degree & 21.14 & 16.475 & 14.6975 & 18.4525 & 16.3425 & 15.18 & 17.865 & 9.55 \\
-    HS Graduate & 21.4725 & 26.7175 & 29.5875 & 26.0275 & 30.565 & 29.46 & 27.03 & 33.5125 \\
-    Less than High School & 10.12 & 10.3525 & 7.1575 & 5.7275 & 9.8875 & 7.7725 & 5.385 & 11.365 \\ \hline
-    \end{tabular}
-    \end{table}    
+\begin{table}[]
+  \resizebox{\columnwidth}{!}{%
+  \begin{tabular}{lllllllllllllll}
+                            &                                              &                  &                 &                   &                  &                  &                   &                &                &  &  &  &  &  \\
+  \textbf{County}           &                                              & Fairfield County & Hartford County & Litchfield County & Middlesex County & New Haven County & New London County & Tolland County & Windham County &  &  &  &  &  \\
+  \textbf{Total Population} &                                              & 944977           & 894465.25       & 182657.5          & 163318.25        & 858678           & 268477.75         & 151218.75      & 116608.75      &  &  &  &  &  \\
+  \textbf{Race}             & American Indian and Alaska Native race alone & 0.24             & 0.3075          & 0.2025            & 0.195            & 0.1725           & 0.605             & 0.05           & 0.565          &  &  &  &  &  \\
+                            & Asian                                        & 5.2925           & 5.2925          & 1.9               & 3.0625           & 4.005            & 4.12              & 4.675          & 1.3675         &  &  &  &  &  \\
+                            & Black or African American                    & 11.405           & 13.7025         & 1.83              & 5.385            & 13.34            & 5.8175            & 3.1075         & 2.33           &  &  &  &  &  \\
+                            & Native Hawaiian and Pacific Islander         & 0.055            & 0.035           & 0                 & 0.005            & 0.0225           & 0.025             & 0              & 0.015          &  &  &  &  &  \\
+                            & White                                        & 72.6325          & 70.67           & 92.6025           & 88.0875          & 73.2875          & 80.6175           & 88.025         & 88.8725        &  &  &  &  &  \\
+  \textbf{Ethnicity}        & Hispanic                                     & 19.53            & 17.8275         & 6.15              & 6.12             & 17.885           & 10.5              & 5.4475         & 11.6375        &  &  &  &  &  \\
+  \textbf{Education}        & Associates                                   & 20.74            & 25              & 27.9225           & 26.46            & 24.4175          & 29.2675           & 26.315         & 30.9775        &  &  &  &  &  \\
+                            & Bachelor                                     & 26.53            & 21.4575         & 20.635            & 23.3325          & 18.785           & 18.3175           & 23.4075        & 14.595         &  &  &  &  &  \\
+                            & Graduate Degree                              & 21.14            & 16.475          & 14.6975           & 18.4525          & 16.3425          & 15.18             & 17.865         & 9.55           &  &  &  &  &  \\
+                            & HS Graduate                                  & 21.4725          & 26.7175         & 29.5875           & 26.0275          & 30.565           & 29.46             & 27.03          & 33.5125        &  &  &  &  &  \\
+                            & Less the High School                         & 10.12            & 10.3525         & 7.1575            & 5.7275           & 9.8875           & 7.7725            & 5.385          & 11.365         &  &  &  &  &  \\
+                            &                                              &                  &                 &                   &                  &                  &                   &                &                &  &  &  &  & 
+  \end{tabular}%
+  }
+  \end{table}
+    
+
+
 
 
 \begin{figure}[tbp]
@@ -142,29 +144,20 @@ the socio-economic and racial disparities prevalent in the studied region.
 
 There does not appear to be a significant relationship produced over the span of four years between the variables for housing affordability
 
-\subsubsection{Median Income}
+\subsection{Median Income}
 The disparity in median income across the four years highlights economic fluctuations, with 
 2020 exhibiting the highest income levels. County-wise analysis reveals that county 1 has a significantly 
 greater median income than other counties. This discrepancy in wealth signifies potential disparities in 
-access to resources and opportunities, which can significantly impact health outcomes.
-
-\subsubsection{Housing Affordability}
-The stable trend in the percentage of renters spending 50 percent of their income on rent suggests a 
+access to resources and opportunities, which can significantly impact health outcomes. The stable trend 
+in the percentage of renters spending 50 percent of their income on rent suggests a 
 consistent challenge faced by residents across the years. County 1 and 5 facing significantly higher 
 rates reflect housing affordability issues, possibly indicating economic strains experienced by residents in these areas.
-
-\subsubsection{Rehospitalization Rates}
 The absence of significant differences in rehospitalization rates by both county and year indicates 
-a consistent healthcare landscape. However, it's crucial to explore the reasons behind this stability to identify 
-potential factors contributing to the overall health system's effectiveness.
-
-\subsubsection{Food Stamps Usage}
+a consistent healthcare landscape over the years prior to the 2020 pandemic.
 Counties 8, 2, and 5 having higher percentages of the population on food stamps imply economic challenges 
 faced by residents in these regions. This data aligns with the housing affordability trends, suggesting a potential 
 link between financial struggles and reliance on government assistance programs.
-
-\subsubsection{Uninsured Rates}
-County 1's consistently high uninsured rate points towards a significant healthcare accessibility issue, 
+County 1's significant high uninsured rate points towards a significant healthcare accessibility issue, 
 possibly linked to economic factors impacting insurance affordability. Year 3's (2019) lower uninsured rate signifies 
 a positive change; understanding the policies or interventions during this period could offer valuable insights into 
 effective healthcare reforms.
