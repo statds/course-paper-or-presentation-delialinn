@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex manuscript"] 1698714194 "manuscript.aux" "manuscript.bbl" "manuscript" 1698714205 0
+["bibtex manuscript"] 1698724519 "manuscript.aux" "manuscript.bbl" "manuscript" 1698724542 0
   "../manuscript/ref.bib" 1696897806 3263 41e534a7c01bf182739b3bbc661099e8 ""
   "/usr/local/texlive/2023/texmf-dist/bibtex/bst/chicago/chicago.bst" 1198629289 37416 2ae04276c51f11eda70770f4081293b7 ""
-  "manuscript.aux" 1698714204 2556 0128e995204106a6643fade01d5143b7 "pdflatex"
+  "manuscript.aux" 1698724541 2756 664f33f44b31d8d557c57fb89e5b93f4 "pdflatex"
   (generated)
   "manuscript.bbl"
   "manuscript.blg"
   (rewritten before read)
-["pdflatex"] 1698714202 "/Users/delialin/Desktop/github/stat/course-paper-or-presentation-delialinn/manuscript/manuscript.tex" "manuscript.pdf" "manuscript" 1698714205 0
-  "/Users/delialin/Desktop/github/stat/course-paper-or-presentation-delialinn/manuscript/manuscript.tex" 1698714201 13129 88c64080005f1156d456d997684691fc ""
+["pdflatex"] 1698724538 "/Users/delialin/Desktop/github/stat/course-paper-or-presentation-delialinn/manuscript/manuscript.tex" "manuscript.pdf" "manuscript" 1698724542 0
+  "/Users/delialin/Desktop/github/stat/course-paper-or-presentation-delialinn/manuscript/manuscript.tex" 1698724537 13304 38a3c0e30fcc7e09ec14f84910bd0a49 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -106,12 +106,13 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1692979246 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1692979187 7883452 18a21a104b6ecae1a269f9883641de25 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
+  "Income by County Graph.pdf" 1698724399 79189 94559b5d25fbf2aad3204a7c39175dbf ""
   "Income by town.pdf" 1698640403 51489 4c4db81219b260c2a5971fc344c1d1bf ""
   "Income by year.pdf" 1698640469 41604 61f9891660e87c7e1ebdde5fe423e291 ""
-  "manuscript.aux" 1698714204 2556 0128e995204106a6643fade01d5143b7 "pdflatex"
-  "manuscript.bbl" 1698714195 1631 7dbeb0440277c3d03922359a98f17467 "bibtex manuscript"
-  "manuscript.out" 1698714204 672 8877c38a682cd6bb2e6624c106590e98 "pdflatex"
-  "manuscript.tex" 1698714201 13129 88c64080005f1156d456d997684691fc ""
+  "manuscript.aux" 1698724541 2756 664f33f44b31d8d557c57fb89e5b93f4 "pdflatex"
+  "manuscript.bbl" 1698724519 1631 7dbeb0440277c3d03922359a98f17467 "bibtex manuscript"
+  "manuscript.out" 1698724541 672 8877c38a682cd6bb2e6624c106590e98 "pdflatex"
+  "manuscript.tex" 1698724537 13304 38a3c0e30fcc7e09ec14f84910bd0a49 ""
   (generated)
   "manuscript.aux"
   "manuscript.log"
