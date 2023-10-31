@@ -724,16 +724,6 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT ./Income by year.pdf
-INPUT ./Income by year.pdf
-INPUT Income by year.pdf
-INPUT ./Income by year.pdf
-INPUT ./Income by year.pdf
-INPUT ./Income by town.pdf
-INPUT ./Income by town.pdf
-INPUT Income by town.pdf
-INPUT ./Income by town.pdf
-INPUT ./Income by town.pdf
 INPUT ./Income by County Graph.pdf
 INPUT ./Income by County Graph.pdf
 INPUT Income by County Graph.pdf
