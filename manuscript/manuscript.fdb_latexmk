@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex manuscript"] 1698726228 "manuscript.aux" "manuscript.bbl" "manuscript" 1698726273 0
+["bibtex manuscript"] 1698726228 "manuscript.aux" "manuscript.bbl" "manuscript" 1699912587 0
   "../manuscript/ref.bib" 1696897806 3263 41e534a7c01bf182739b3bbc661099e8 ""
   "/usr/local/texlive/2023/texmf-dist/bibtex/bst/chicago/chicago.bst" 1198629289 37416 2ae04276c51f11eda70770f4081293b7 ""
-  "manuscript.aux" 1698726272 2562 559452b746d8b661239dd29524ffb6c1 "pdflatex"
+  "manuscript.aux" 1699912587 2562 559452b746d8b661239dd29524ffb6c1 "pdflatex"
   (generated)
   "manuscript.bbl"
   "manuscript.blg"
   (rewritten before read)
-["pdflatex"] 1698726270 "/Users/delialin/Desktop/github/stat/course-paper-or-presentation-delialinn/manuscript/manuscript.tex" "manuscript.pdf" "manuscript" 1698726273 0
-  "/Users/delialin/Desktop/github/stat/course-paper-or-presentation-delialinn/manuscript/manuscript.tex" 1698726267 13166 a8d48ee9de29feccf93f7ad0cb083a89 ""
+["pdflatex"] 1699912586 "/Users/delialin/Desktop/github/stat/course-paper-or-presentation-delialinn/manuscript/manuscript.tex" "manuscript.pdf" "manuscript" 1699912587 0
+  "/Users/delialin/Desktop/github/stat/course-paper-or-presentation-delialinn/manuscript/manuscript.tex" 1699912585 13129 09489db2ae7eabc4b6027b20e7be24ad ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -107,10 +107,10 @@
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1692979187 7883452 18a21a104b6ecae1a269f9883641de25 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
   "Income by County Graph.pdf" 1698724399 79189 94559b5d25fbf2aad3204a7c39175dbf ""
-  "manuscript.aux" 1698726272 2562 559452b746d8b661239dd29524ffb6c1 "pdflatex"
+  "manuscript.aux" 1699912587 2562 559452b746d8b661239dd29524ffb6c1 "pdflatex"
   "manuscript.bbl" 1698726229 1631 7dbeb0440277c3d03922359a98f17467 "bibtex manuscript"
-  "manuscript.out" 1698726272 672 832d157499befed28722a8472ea3c87b "pdflatex"
-  "manuscript.tex" 1698726267 13166 a8d48ee9de29feccf93f7ad0cb083a89 ""
+  "manuscript.out" 1699912587 672 832d157499befed28722a8472ea3c87b "pdflatex"
+  "manuscript.tex" 1699912585 13129 09489db2ae7eabc4b6027b20e7be24ad ""
   (generated)
   "manuscript.aux"
   "manuscript.log"

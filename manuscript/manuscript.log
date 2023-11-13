@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.25)  31 OCT 2023 00:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.25)  13 NOV 2023 16:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -422,7 +422,7 @@ Package hyperref Info: Link coloring ON on input line 24.
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 101.
+               Default added (so using `tbp') on input line 100.
 
 
 
@@ -430,7 +430,7 @@ pdfTeX warning: pdflatex (file ./Income by County Graph.pdf): PDF inclusion: fou
 <Income by County Graph.pdf, id=60, 614.295pt x 794.97pt>
 File: Income by County Graph.pdf Graphic file (type pdf)
 <use Income by County Graph.pdf>
-Package pdftex.def Info: Income by County Graph.pdf  used on input line 129.
+Package pdftex.def Info: Income by County Graph.pdf  used on input line 128.
 (pdftex.def)             Requested size: 469.75502pt x 607.9196pt.
 [2] [3 <./Income by County Graph.pdf>] [4] (./manuscript.bbl) [5] (./manuscript.aux)
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
@@ -439,13 +439,13 @@ Package rerunfilecheck Info: File `manuscript.out' has not changed.
 Here is how much of TeX's memory you used:
  11553 strings out of 476025
  188786 string characters out of 5790017
- 1874388 words of memory out of 5000000
+ 1875388 words of memory out of 5000000
  31816 multiletter control sequences out of 15000+600000
  519535 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,9n,77p,354b,443s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on manuscript.pdf (5 pages, 143114 bytes).
+Output written on manuscript.pdf (5 pages, 142970 bytes).
 PDF statistics:
  129 PDF objects out of 1000 (max. 8388607)
  106 compressed objects within 2 object streams
