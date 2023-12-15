@@ -647,6 +647,17 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/varwidth/varwidth.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/varwidth/varwidth.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/varwidth/varwidth.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/varwidth/varwidth.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/setspace/setspace.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/setspace/setspace.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/setspace/setspace.sty
@@ -745,6 +756,11 @@ INPUT ./Multiple Comparisons by County.pdf
 INPUT Multiple Comparisons by County.pdf
 INPUT ./Multiple Comparisons by County.pdf
 INPUT ./Multiple Comparisons by County.pdf
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/omlcmr.fd
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/omlcmr.fd
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/omlcmr.fd
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/omlcmr.fd
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT ./manuscript.bbl
 INPUT manuscript.bbl
@@ -756,6 +772,7 @@ INPUT ./manuscript.out
 INPUT ./manuscript.out
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb

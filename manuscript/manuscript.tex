@@ -12,6 +12,7 @@
 \usepackage[colorlinks=true, citecolor=blue]{hyperref}
 \usepackage{tabularx}
 \usepackage{adjustbox}
+\usepackage[utf8]{inputenc}
 
 % double spacing
 \usepackage{setspace}
@@ -100,12 +101,26 @@ each of the variables for each county.
 
 \section{Results}\label{sec:resu}
 
-\ref{tab:Demographics}
-\ref{fig:Income by County Graph}
+\ref{tab:Demographics1}
+\ref{tab:Demographics2}
+
+
+\ref{fig:Education by County Graph}
+discuss, use lit to support why
+
+\ref{fig:Social Needs by County Graph}
+differences by year
+
+\ref{tab:Multiple Comparison for Income}
+the specific values for income
+
+\ref{tab: Multiple Comparisons}
+what discussion talks about
+
 
 
 \begin{table}[h]
-\label{tab:Demographics}
+\label{tab:Demographics1}
   \caption{Demographics and Education Levels for Counties 1-4}
   \resizebox{\columnwidth}{!}{%
   \begin{tabular}{lccccc}
@@ -127,7 +142,7 @@ each of the variables for each county.
 \end{table}
 
 \begin{table}[h]
-  \label{tab:Demographics}
+  \label{tab:Demographics2}
   \caption{Demographics and Education Levels for Counties 5-8}
   \resizebox{\columnwidth}{!}{%
   \begin{tabular}{lcccc}
@@ -157,13 +172,15 @@ each of the variables for each county.
 
 
 \begin{figure}[tbp]
-  \label{fig:Income by County Graph}
+  \label{fig:Social Needs by County Graph}
     \centering
     \includegraphics[width=\textwidth]{Multiple Comparisons by County.pdf}
     \caption{Social Needs Multiple Comparisons by County.}
   \end{figure}
 
   \begin{table}[htbp]
+    \label{tab:Multiple Comparison for Income}
+    \caption{Median Income Multiple Comparison by County}
     \centering
     \resizebox{\columnwidth}{!}{%
     \begin{tabular}{lllrrrr}
@@ -171,8 +188,8 @@ each of the variables for each county.
     & & & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{2}{l}{95\% Confidence} \\
     County 1(I) & County 2(J) & Mean Difference(I-J) & \multicolumn{1}{l}{Std. Error} & \multicolumn{1}{l}{Sig.} & \multicolumn{1}{l}{Lower Bound} & \multicolumn{1}{l}{Upper Bound} \\
     \midrule
-    Fairfield County & Hartford County & 20565.50* & 1883.47 & \textbf{<.001} & 14327.60 & 26803.40 \\
-    & Litchfield County & 14919.50* & 1883.47 & \textbf{<.001} & 8681.60 & 21157.40 \\
+    Fairfield County & Hartford County & 20565.50* & 1883.47 & \textbf{\textless 0.001} & 14327.60 & 26803.40 \\
+    & Litchfield County & 14919.50* & 1883.47 & \textbf{\textless 0.001} & 8681.60 & 21157.40 \\
     & Middlesex County & 9671.75* & 1883.47 & \textbf{<.001} & 3433.85 & 15909.65 \\
     & New Haven County & 25662.75* & 1883.47 & \textbf{<.001} & 19424.85 & 31900.65 \\
     & New London County & 21456.50* & 1883.47 & \textbf{<.001} & 15218.60 & 27694.40 \\
@@ -202,11 +219,62 @@ each of the variables for each county.
     & New London County & 11784.75* & 1883.47 & \textbf{<.001} & 5546.85 & 18022.65 \\
     & Tolland County & -966.75 & 1883.47 & 0.999 & -7204.65 & 5271.15 \\
     & Windham County & 18999.25* & 1883.47 & \textbf{<.001} & 12761.35 & 25237.15 \\
+    \midrule
+    New Haven County & Fairfield County & -25662.75* & 1883.47 & <.001 & -31900.65 & -19424.85 \\
+    & Hartford County & -5097.25 & 1883.47 & 0.169 & -11335.15 & 1140.65 \\
+    & Litchfield County & -10743.25* & 1883.47 & <.001 & -16981.15 & -4505.35 \\
+    & Middlesex County & -15991.00* & 1883.47 & <.001 & -22228.90 & -9753.10 \\
+    & New London County & -4206.25 & 1883.47 & 0.368 & -10444.15 & 2031.65 \\
+    & Tolland County & -16957.75* & 1883.47 & <.001 & -23195.65 & -10719.85 \\
+    & Windham County & 3008.25 & 1883.47 & 0.747 & -3229.65 & 9246 \\
+    \midrule
+    New London County & Fairfield County & -21456.50* & 1883.47 & <.001 & -27694.40 & -15218.60 \\
+    & Hartford County & -891 & 1883.47 & 1 & -7128.90 & 5346.90 \\
+    & Litchfield County & -6537.00* & 1883.47 & 0.035 & -12774.90 & -299.10 \\
+    & Middlesex County & -11784.75* & 1883.47 & <.001 & -18022.65 & -5546.85 \\
+    & New Haven County & 4206.25 & 1883.47 & 0.368 & -2031.65 & 10444.15 \\
+    & Tolland County & -12751.50* & 1883.47 & <.001 & -18989.40 & -6513.60 \\
+    & Windham County & 7214.50* & 1883.47 & 0.016 & 976.60 & 13452.40 \\
+    \midrule
+    Tolland County & Fairfield County & -8705.00* & 1883.47 & 0.002 & -14942.90 & -2467.10 \\
+    & Hartford County & 11860.50* & 1883.47 & <.001 & 5622.60 & 18098.40 \\
+    & Litchfield County & 6214.50 & 1883.47 & 0.051 & -23.40 & 12452.40 \\
+    & Middlesex County & 966.75 & 1883.47 & 0.999 & -5271.15 & 7204.65 \\
+    & New Haven County & 16957.75* & 1883.47 & <.001 & 10719.85 & 23195.65 \\
+    & New London County & 12751.50* & 1883.47 & <.001 & 6513.60 & 18989.40 \\
+    & Windham County & 19966.00* & 1883.47 & <.001 & 13728.10 & 26203.90 \\
+    \midrule
+    Windham County & Fairfield County & -28671.00* & 1883.47 & <.001 & -34908.90 & -22433.10 \\
+    & Hartford County & -8105.50* & 1883.47 & 0.005 & -14343.40 & -1867.60 \\
+    & Litchfield County & -13751.50* & 1883.47 & <.001 & -19989.40 & -7513.60 \\
+    & Middlesex County & -18999.25* & 1883.47 & <.001 & -25237.15 & -12761.35 \\
+    & New Haven County & -3008.25 & 1883.47 & 0.747 & -9246.15 & 3229.65 \\
+    & New London County & -7214.50* & 1883.47 & 0.016 & -13452.40 & -976.60 \\
+    & Tolland County & -19966.00* & 1883.47 & <.001 & -26203.90 & -13728.10 \\
     \bottomrule
   \end{tabular}%
   }
 \end{table}
     
+\begin{table}[]
+  \label{tab: Multiple Comparisons}
+  \caption{Multiple Comparisons by Year and Town}
+  \resizebox{\columnwidth}{!}{%
+  \begin{tabular}{llrrrrl}
+  \textbf{Social Need}   & \textbf{Comparison by} & \multicolumn{1}{l}{\textbf{DF}} & \multicolumn{1}{l}{\textbf{Sum of Squares}} & \multicolumn{1}{l}{\textbf{Mean Square}} & \multicolumn{1}{l}{\textbf{F Value}} & \textbf{P Value}           \\
+  Median Income          & Year                   & 3                               & 158657606                                   & 52885869                                 & 95.57                                & <.0001                     \\
+                         & Town                   & 7                               & 2618521106                                  & 374074444                                & 675.99                               & <.0001                     \\
+  Food                   & Year                   & 3                               & 3.6450625                                   & 1.2150208                                & 10.08                                & 0.0003 \\
+                         & Town                   & 7                               & 348.3382875                                 & 49.7626125                               & 412.72                               & <.0001                     \\
+  Housing                & Year                   & 3                               & 1.4535125                                   & 0.4845042                                & 0.41                                 & 0.7506 \\
+                         & Town                   & 7                               & 183.9498375                                 & 26.2785482                               & 21.99                                & <.0001                     \\
+  Rehospitalization Rate & Year                   & 3                               & 0.00050938                                  & 0.00016979                               & 1.45                                 & 0.2578 \\
+                         & Town                   & 7                               & 0.00427188                                  & 0.00061027                               & 5.2                                  & 0.0015 \\
+  Uninsured Rate         & Year                   & 3                               & 2.6848375                                   & 0.89494583                               & 17.17                                & <.0001                     \\
+                         & Town                   & 7                               & 92.8554875                                  & 13.26506964                              & 254.57                               & <.0001                    
+  \end{tabular}%
+  }
+  \end{table}
 
 \section{Discussion}\label{sec:disc}
 
@@ -221,6 +289,27 @@ compared to other counties, indicating potential disparities in resource access 
 This wealth gap implies potential repercussions on community health outcomes. The consistent trend in 
 the percentage of income spent on rent underscores a persistent challenge for residents, especially 
 noticeable in counties 1 and 5, indicating enduring economic pressure.
+
+The results pertaining to housing defined by renters whose rent is 50 percent of their income, 
+reveal noteworthy patterns with respect to social needs. Examining the data across the four-year span 
+indicates a consistent trend, as no significant differences were observed. However, significant differences are 
+revealed when comparing between counties. Counties 1 and 5 exhibited a statistically significant increase 
+in the percentage of renters facing housing costs amounting to 50 percent of their income compared to 
+counties 2, 7, and 3. Intriguingly, there was no statistically significant distinction between counties 
+1 and 5, suggesting a commonality in the challenges faced by renters in these specific regions. These 
+findings underscore the importance of localized interventions and policy considerations to address the 
+distinct socio-economic dynamics influencing housing affordability across different counties.
+
+Food access was assesses through investigating the proportion of the population involved in the use of Food Stamps programs.
+AHRQ data reveals notable variations across different counties. Counties 8, 2, and 5 exhibit a statistically significant 
+higher percentage of the population relying on Food Stamps, suggesting a potentially elevated level of economic 
+vulnerability or socio-economic challenges in these areas. County 6 also demonstrates a substantial proportion 
+of its population on Food Stamps, indicating a notable need for social assistance. Conversely, County 7 stands 
+out with the lowest percentage of its population depending on Food Stamps, implying comparatively better 
+economic conditions or potentially more effective social support systems. These findings underscore the 
+importance of targeted interventions and resource allocation to address social needs, particularly in counties 
+with higher reliance on Food Stamps. Further exploration into the underlying factors contributing to these variations 
+is needed for informed policy development and community-specific interventions.
 
 Rehospitalization rates demonstrate stability across counties and years leading up to 2020, suggesting 
 a consistent healthcare landscape. Counties 8, 2, and 5 exhibiting higher food stamp usage point to economic 
