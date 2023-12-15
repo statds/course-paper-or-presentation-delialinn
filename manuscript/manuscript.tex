@@ -121,12 +121,6 @@ each of the variables for each county.
     \quad White & 72.6325 & 70.67 & 92.6025 & 88.0875 \\
     Ethnicity (Percent) & & & & \\
     \quad Hispanic & 19.53 & 17.8275 & 6.15 & 6.12 \\
-    Education (Percent) & & & & \\
-    \quad Associates & 20.74 & 25 & 27.9225 & 26.46 \\
-    \quad Bachelor & 26.53 & 21.4575 & 20.635 & 23.3325 \\
-    \quad Graduate Degree & 21.14 & 16.475 & 14.6975 & 18.4525 \\
-    \quad HS Graduate & 21.4725 & 26.7175 & 29.5875 & 26.0275 \\
-    \quad Less than High School & 10.12 & 10.3525 & 7.1575 & 5.7275 \\
     \bottomrule
   \end{tabular}%
   }
@@ -149,98 +143,66 @@ each of the variables for each county.
     \quad White & 73.2875 & 80.6175 & 88.025 & 88.8725 \\
     Ethnicity (Percent) & & & & \\
     \quad Hispanic & 17.885 & 10.5 & 5.4475 & 11.6375 \\
-    Education (Percent) & & & & \\
-    \quad Associates & 24.4175 & 29.2675 & 26.315 & 30.9775 \\
-    \quad Bachelor & 18.785 & 18.3175 & 23.4075 & 14.595 \\
-    \quad Graduate Degree & 16.3425 & 15.18 & 17.865 & 9.55 \\
-    \quad HS Graduate & 30.565 & 29.46 & 27.03 & 33.5125 \\
-    \quad Less than High School & 9.8875 & 7.7725 & 5.385 & 11.365 \\
     \bottomrule
   \end{tabular}%
   }
 \end{table}
 
+\begin{figure}[tbp]
+  \label{fig:Education by County Graph}
+    \centering
+    \includegraphics[width=\textwidth]{Education Levels by County.pdf}
+    \caption{Education Levels by County.}
+  \end{figure}
 
 
 \begin{figure}[tbp]
   \label{fig:Income by County Graph}
     \centering
-    \includegraphics[width=\textwidth]{Income by County Graph.pdf}
-    \caption{Median Income by County.}
+    \includegraphics[width=\textwidth]{Multiple Comparisons by County.pdf}
+    \caption{Social Needs Multiple Comparisons by County.}
   \end{figure}
 
-
-\begin{table}[htbp]
-  \centering
-  \resizebox{\columnwidth}{!}{%
-  \begin{tabular}{lllrrrr}
-  \toprule
-  & & & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{2}{l}{95\% Confidence} \\
-  County 1(I) & County 2(J) & Mean Difference(I-J) & \multicolumn{1}{l}{Std. Error} & \multicolumn{1}{l}{Sig.} & \multicolumn{1}{l}{Lower Bound} & \multicolumn{1}{l}{Upper Bound} \\
-  \midrule
-  Fairfield County & Hartford County & 20565.50000* & 1883.47243 & \textbf{<.001} & 14327.6034 & 26803.3966 \\
-  & Litchfield County & 14919.50000* & 1883.47243 & \textbf{<.001} & 8681.6034 & 21157.3966 \\
-  & Middlesex County & 9671.75000* & 1883.47243 & \textbf{<.001} & 3433.8534 & 15909.6466 \\
-  & New Haven County & 25662.75000* & 1883.47243 & \textbf{<.001} & 19424.8534 & 31900.6466 \\
-  & New London County & 21456.50000* & 1883.47243 & \textbf{<.001} & 15218.6034 & 27694.3966 \\
-  & Tolland County & 8705.00000* & 1883.47243 & \textbf{0.002} & 2467.1034 & 14942.8966 \\
-  & Windham County & 28671.00000* & 1883.47243 & \textbf{<.001} & 22433.1034 & 34908.8966 \\
-  \midrule
-  Hartford County & Fairfield County & -20565.50* & 1883.47 & \textbf{<.001} & -26803.40 & -14327.60 \\
-  & Litchfield County & -5646 & 1883.47 & 0.096 & -11883.90 & 591.90 \\
-  & Middlesex County & -10893.75* & 1883.47 & \textbf{<.001} & -17131.65 & -4655.85 \\
-  & New Haven County & 5097.25 & 1883.47 & 0.169 & -1140.65 & 11335.15 \\
-  & New London County & 891 & 1883.47 & 1 & -5346.90 & 7128.90 \\
-  & Tolland County & -11860.50* & 1883.47 & \textbf{<.001} & -18098.40 & -5622.60 \\
-  & Windham County & 8105.50* & 1883.47 & 0.005 & 1867.60 & 14343.40 \\
-  \midrule
-  Litchfield County & Fairfield County & -14919.50* & 1883.47 & \textbf{<.001} & -21157.40 & -8681.60 \\
-  & Hartford County & 5646 & 1883.47 & 0.096 & -591.90 & 11883.90 \\
-  & Middlesex County & -5247.75 & 1883.47 & 0.145 & -11485.65 & 990.15 \\
-  & New Haven County & 10743.25* & 1883.47 & \textbf{<.001} & 4505.35 & 16981.15 \\
-  & New London County & 6537 & 1883.47 & 0.035 & 299.10 & 12774.90 \\
-  & Tolland County & -6214.5 & 1883.47 & 0.051 & -12452.40 & 23.40 \\
-  & Windham County & 13751.50* & 1883.47 & \textbf{<.001}  & 7513.60 & 19989.40 \\
-  \midrule
-  Middlesex County & Fairfield County & -9671.75* &  & 1883.47 & <.001 & -15909.65 & -3433.85 \\
-  & Hartford County & 10893.75* & 1883.47 & <.001 & 4655.85 & 17131.65 \\
-  & Litchfield County & 5247.75 & 1883.47 & 0.145 & -990.15 & 11485.65 \\
-  & New Haven County & 15991.00* & 1883.47 & <.001 & 9753.10 & 22228.90 \\
-  & New London County & 11784.75* & 1883.47 & <.001 & 5546.85 & 18022.65 \\
-  & Tolland County & -966.75 & 1883.47 & 0.999 & -7204.65 & 5271.15 \\
-  & Windham County & 18999.25* & 1883.47 & <.001 & 12761.35 & 25237.15 \\
-  \midrule
-  New Haven County & Fairfield County & -25662.75* &  & 1883.47 & <.001 & -31900.65 & -19424.85 \\
-  & Hartford County & -5097.25 & 1883.47 & 0.169 & -11335.15 & 1140.65 \\
-  & Litchfield County & -10743.25* & 1883.47 & <.001 & -16981.15 & -4505.35 \\
-  & Middlesex County & -15991.00* & 1883.47 & <.001 & -22228.90 & -9753.10 \\
-  & New London County & -4206.25 & 1883.47 & 0.368 & -10444.15 & 2031.65 \\
-  & Tolland County & -16957.75* & 1883.47 & <.001 & -23195.65 & -10719.85 \\
-  & Windham County & 3008.25 & 1883.47 & 0.747 & -3229.65 & 9246
-  \midrule
-  New London County & Fairfield County & -21456.50* & 1883.47 & <.001 & -27694.40 & -15218.60 \\
-  & Hartford County & -891 & 1883.47 & 1 & -7128.90 & 5346.90 \\
-  & Litchfield County & -6537.00* & 1883.47 & 0.035 & -12774.90 & -299.10 \\
-  & Middlesex County & -11784.75* & 1883.47 & <.001 & -18022.65 & -5546.85 \\
-  & New Haven County & 4206.25 & 1883.47 & 0.368 & -2031.65 & 10444.15 \\
-  & Tolland County & -12751.50* & 1883.47 & <.001 & -18989.40 & -6513.60 \\
-  & Windham County & 7214.50* & 1883.47 & 0.016 & 976.60 & 13452.40 \\
-  \midrule
-  Tolland County & Fairfield County & -8705.00* & 1883.47 & 0.002 & -14942.90 & -2467.10 \\
-  & Hartford County & 11860.50* & 1883.47 & <.001 & 5622.60 & 18098.40 \\
-  & Litchfield County & 6214.50 & 1883.47 & 0.051 & -23.40 & 12452.40 \\
-  & Middlesex County & 966.75 & 1883.47 & 0.999 & -5271.15 & 7204.65 \\
-  & New Haven County & 16957.75* & 1883.47 & <.001 & 10719.85 & 23195.65 \\
-  & New London County & 12751.50* & 1883.47 & <.001 & 6513.60 & 18989.40 \\
-  & Windham County & 19966.00* & 1883.47 & <.001 & 13728.10 & 26203.90 \\
-  \midrule
-  Windham County & Fairfield County & -28671.00* &  & 1883.47 & <.001 & -34908.90 & -22433.10 \\
-  & Hartford County & -8105.50* & 1883.47 & 0.005 & -14343.40 & -1867.60 \\
-  & Litchfield County & -13751.50* & 1883.47 & <.001 & -19989.40 & -7513.60 \\
-  & Middlesex County & -18999.25* & 1883.47 & <.001 & -25237.15 & -12761.35 \\
-  & New Haven County & -3008.25 & 1883.47 & 0.747 & -9246.15 & 3229.65 \\
-  & New London County & -7214.50* & 1883.47 & 0.016 & -13452.40 & -976.60 \\
-  & Tolland County & -19966.00* & 1883.47 & <.001 & -26203.90 & -13728.10 \\
+  \begin{table}[htbp]
+    \centering
+    \resizebox{\columnwidth}{!}{%
+    \begin{tabular}{lllrrrr}
+    \toprule
+    & & & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{2}{l}{95\% Confidence} \\
+    County 1(I) & County 2(J) & Mean Difference(I-J) & \multicolumn{1}{l}{Std. Error} & \multicolumn{1}{l}{Sig.} & \multicolumn{1}{l}{Lower Bound} & \multicolumn{1}{l}{Upper Bound} \\
+    \midrule
+    Fairfield County & Hartford County & 20565.50* & 1883.47 & \textbf{<.001} & 14327.60 & 26803.40 \\
+    & Litchfield County & 14919.50* & 1883.47 & \textbf{<.001} & 8681.60 & 21157.40 \\
+    & Middlesex County & 9671.75* & 1883.47 & \textbf{<.001} & 3433.85 & 15909.65 \\
+    & New Haven County & 25662.75* & 1883.47 & \textbf{<.001} & 19424.85 & 31900.65 \\
+    & New London County & 21456.50* & 1883.47 & \textbf{<.001} & 15218.60 & 27694.40 \\
+    & Tolland County & 8705.00* & 1883.47 & \textbf{0.002} & 2467.10 & 14942.90 \\
+    & Windham County & 28671.00* & 1883.47 & \textbf{<.001} & 22433.10 & 34908.90 \\
+    \midrule
+    Hartford County & Fairfield County & -20565.50* & 1883.47 & \textbf{<.001} & -26803.40 & -14327.60 \\
+    & Litchfield County & -5646 & 1883.47 & 0.096 & -11883.90 & 591.90 \\
+    & Middlesex County & -10893.75* & 1883.47 & \textbf{<.001} & -17131.65 & -4655.85 \\
+    & New Haven County & 5097.25 & 1883.47 & 0.169 & -1140.65 & 11335.15 \\
+    & New London County & 891 & 1883.47 & 1 & -5346.90 & 7128.90 \\
+    & Tolland County & -11860.50* & 1883.47 & \textbf{<.001} & -18098.40 & -5622.60 \\
+    & Windham County & 8105.50* & 1883.47 & \textbf{0.005} & 1867.60 & 14343.40 \\
+    \midrule
+    Litchfield County & Fairfield County & -14919.50* & 1883.47 & \textbf{<.001} & -21157.40 & -8681.60 \\
+    & Hartford County & 5646 & 1883.47 & 0.096 & -591.90 & 11883.90 \\
+    & Middlesex County & -5247.75 & 1883.47 & 0.145 & -11485.65 & 990.15 \\
+    & New Haven County & 10743.25* & 1883.47 & \textbf{<.001} & 4505.35 & 16981.15 \\
+    & New London County & 6537 & 1883.47 & 0.035 & 299.10 & 12774.90 \\
+    & Tolland County & -6214.5 & 1883.47 & 0.051 & -12452.40 & 23.40 \\
+    & Windham County & 13751.50* & 1883.47 & \textbf{<.001} & 7513.60 & 19989.40 \\
+    \midrule
+    Middlesex County & Fairfield County & -9671.75* & 1883.47 & \textbf{<.001} & -15909.65 & -3433.85 \\
+    & Hartford County & 10893.75* & 1883.47 & \textbf{<.001} & 4655.85 & 17131.65 \\
+    & Litchfield County & 5247.75 & 1883.47 & 0.145 & -990.15 & 11485.65 \\
+    & New Haven County & 15991.00* & 1883.47 & \textbf{<.001} & 9753.10 & 22228.90 \\
+    & New London County & 11784.75* & 1883.47 & \textbf{<.001} & 5546.85 & 18022.65 \\
+    & Tolland County & -966.75 & 1883.47 & 0.999 & -7204.65 & 5271.15 \\
+    & Windham County & 18999.25* & 1883.47 & \textbf{<.001} & 12761.35 & 25237.15 \\
+    \bottomrule
   \end{tabular}%
   }
 \end{table}
