@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.25)  15 DEC 2023 14:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.25)  15 DEC 2023 18:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -342,8 +342,7 @@ Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box58
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-)
-No file manuscript.aux.
+) (./manuscript.aux)
 \openout1 = `manuscript.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
@@ -364,6 +363,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -424,141 +424,68 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx))
 Package hyperref Info: Link coloring ON on input line 32.
+ (./manuscript.out) (./manuscript.out)
 \@outlinefile=\write3
 \openout3 = `manuscript.out'.
 
+ [1
 
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5]
 
-/Users/delialin/Desktop/github/stat/course-paper-or-presentation-delialinn/manuscript/manuscript.tex:45: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.45 I
-      . Prevalence of Social Determinants of Health
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Package natbib Warning: Citation `HOOD2016129' on page 1 undefined on input line 49.
-
-
-Package natbib Warning: Citation `Monroe2023-uq' on page 1 undefined on input line 50.
-
-
-Package natbib Warning: Citation `Allin2014-xn' on page 1 undefined on input line 52.
-
-[1
-
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-Package natbib Warning: Citation `Badalov2022-wt' on page 2 undefined on input line 64.
-
-[2] [3] [4]
-
-LaTeX Warning: Reference `sec:data' on page 5 undefined on input line 214.
-
-
-LaTeX Warning: Reference `sec:meth' on page 5 undefined on input line 216.
-
-
-LaTeX Warning: Reference `sec:resu' on page 5 undefined on input line 218.
-
-[5]
-
-LaTeX Warning: Reference `tab:Demographics1' on page 6 undefined on input line 253.
-
-
-LaTeX Warning: Reference `tab:Demographics2' on page 6 undefined on input line 254.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
 pdfTeX warning: pdflatex (file ./Education Levels by County.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Education Levels by County.pdf, id=33, 663.51288pt x 354.34195pt>
+<Education Levels by County.pdf, id=75, 663.51288pt x 354.34195pt>
 File: Education Levels by County.pdf Graphic file (type pdf)
 <use Education Levels by County.pdf>
-Package pdftex.def Info: Education Levels by County.pdf  used on input line 304.
+Package pdftex.def Info: Education Levels by County.pdf  used on input line 312.
 (pdftex.def)             Requested size: 469.75502pt x 250.87083pt.
 
 
 pdfTeX warning: pdflatex (file ./Multiple Comparisons by County.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Multiple Comparisons by County.pdf, id=34, 797.01848pt x 519.96921pt>
+<Multiple Comparisons by County.pdf, id=76, 797.01848pt x 519.96921pt>
 File: Multiple Comparisons by County.pdf Graphic file (type pdf)
 <use Multiple Comparisons by County.pdf>
-Package pdftex.def Info: Multiple Comparisons by County.pdf  used on input line 312.
+Package pdftex.def Info: Multiple Comparisons by County.pdf  used on input line 320.
 (pdftex.def)             Requested size: 469.75502pt x 306.46974pt.
 
 
 pdfTeX warning: pdflatex (file ./By Year.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<By Year.pdf, id=35, 658.49382pt x 550.08324pt>
+<By Year.pdf, id=77, 658.49382pt x 550.08324pt>
 File: By Year.pdf Graphic file (type pdf)
 <use By Year.pdf>
-Package pdftex.def Info: By Year.pdf  used on input line 319.
+Package pdftex.def Info: By Year.pdf  used on input line 327.
 (pdftex.def)             Requested size: 469.75502pt x 392.4252pt.
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 399.
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 407.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/bx/n' in size <12> not available
-(Font)              Font shape `OML/cmm/b/it' tried instead on input line 399.
+(Font)              Font shape `OML/cmm/b/it' tried instead on input line 407.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 402.
+               Default added (so using `tbp') on input line 410.
 
-
-LaTeX Warning: Reference `fig:Education by County Graph' on page 6 undefined on input line 425.
-
-
-LaTeX Warning: Reference `fig:Social Needs by County Graph' on page 6 undefined on input line 429.
-
-
-LaTeX Warning: Reference `tab: Multiple Comparisons' on page 6 undefined on input line 437.
-
-[6] [7 <./Education Levels by County.pdf> <./Multiple Comparisons by County.pdf>] [8 <./By Year.pdf>] [9]
-
-LaTeX Warning: Reference `tab:Multiple Comparison for Income' on page 10 undefined on input line 445.
-
-[10] [11] [12] (./manuscript.bbl [13])
-
-Package natbib Warning: There were undefined citations.
-
-[14] (./manuscript.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `manuscript.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `manuscript.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  832D157499BEFED28722A8472EA3C87B;672.
+[6] [7 <./Education Levels by County.pdf> <./Multiple Comparisons by County.pdf>] [8 <./By Year.pdf>] [9] [10] [11] [12] [13] (./manuscript.bbl) [14] (./manuscript.aux)
+Package rerunfilecheck Info: File `manuscript.out' has not changed.
+(rerunfilecheck)             Checksum: 832D157499BEFED28722A8472EA3C87B;672.
  ) 
 Here is how much of TeX's memory you used:
- 11782 strings out of 476025
- 193529 string characters out of 5790017
+ 11796 strings out of 476025
+ 193708 string characters out of 5790017
  1892388 words of memory out of 5000000
- 32019 multiletter control sequences out of 15000+600000
+ 32027 multiletter control sequences out of 15000+600000
  519893 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,77p,364b,550s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,10n,77p,364b,443s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on manuscript.pdf (14 pages, 492707 bytes).
+Output written on manuscript.pdf (14 pages, 495677 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
+ 175 PDF objects out of 1000 (max. 8388607)
+ 137 compressed objects within 2 object streams
  34 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 72 words of extra memory for PDF output out of 10000 (max. 10000000)
 
