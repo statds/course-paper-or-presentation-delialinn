@@ -13,6 +13,11 @@
 \usepackage{tabularx}
 \usepackage{adjustbox}
 
+% double spacing
+\usepackage{setspace}
+\doublespacing
+
+
 %% meta data
 
 \title{Bridging Gaps: Investigating COVID-19's Influence on Health Disparities in Connecticut}
@@ -66,18 +71,19 @@ for targeted interventions, policy-making, and the development of equitable heal
 % roadmap
 The rest of the paper is organized as follows.
 
-The data will be presented in Section\ref{sec:data}
+- The data will be presented in Section \ref{sec:data}
 
-The methods are described in Section\ref{sec:meth}
+- The methods are described in Section \ref{sec:meth}
 
-The results are reported in Section\ref{sec:resu}
+- The results are reported in Section \ref{sec:resu}
 
-A discussion concludes in Section\ref{sec:disc}
+- A discussion concludes in Section \ref{sec:disc}
 
 \section{Data}\label{sec:data}
 
 Data was collected from The Agency for Healthcare Research and Quality (AHRQ).The dataset comprises 7 variables 
-spanning a period of 4 years (2017, 2018, 2019, 2020) with observations across the 8 counties(Fairfield County, Hartford County, Litchfield County, Middlesex County, New Haven County, New London County, Tolland County, Windham County) in Connecticut. These variables 
+spanning a period of 4 years (2017, 2018, 2019, 2020) with observations across the 8 counties(Fairfield County, Hartford County, 
+Litchfield County, Middlesex County, New Haven County, New London County, Tolland County, Windham County) in Connecticut. These variables 
 encompass a total of 56 observations. The variables questions include housing, education level, income, insurance,
 rehospitalization rates, food stamps usage, and population racial characteristics. The dataset includes a range of 
 calculated percentages, median values, and raw observations, providing a holistic view of various factors affecting 
@@ -86,7 +92,7 @@ the communities in these counties.
 \section{Methods}\label{sec:meth}
 
 In this study, descriptive statistics is utilized to outline the total population, racial composition, 
-education levels, and average rehospitalization rate across the 8 counties in Connecticut. ANOVA tests were 
+education levels, and average rehospitalization rate across the 8 counties in Connecticut. Chi-squared analyses were 
 conducted to assess the significance of the difference of the variables of median income, poverty level, health insurance, 
 utilities access, and electronics access between counties and across the four years. Additional 
 Tukey's HSD tests were conducted to determine the specific counties and years that have had significant differences within 
@@ -97,37 +103,148 @@ each of the variables for each county.
 \ref{tab:Demographics}
 \ref{fig:Income by County Graph}
 
-\begin{table}[]
-  \label{tab:Demographics}
-  \caption{Demographics and Education Levels.}
+
+\begin{table}[h]
+\label{tab:Demographics}
+  \caption{Demographics and Education Levels for Counties 1-4}
   \resizebox{\columnwidth}{!}{%
-  \begin{tabular}{lllllllllllllll}
-                            &                                              &                  &                 &                   &                  &                  &                   &                &                &  &  &  &  &  \\
-  \textbf{County}           &                                              & Fairfield County & Hartford County & Litchfield County & Middlesex County & New Haven County & New London County & Tolland County & Windham County &  &  &  &  &  \\
-  \textbf{Total Population} &                                              & 944977           & 894465.25       & 182657.5          & 163318.25        & 858678           & 268477.75         & 151218.75      & 116608.75      &  &  &  &  &  \\
-  \textbf{Race (Percent)}             & American Indian and Alaska Native race alone & 0.24             & 0.3075          & 0.2025            & 0.195            & 0.1725           & 0.605             & 0.05           & 0.565          &  &  &  &  &  \\
-                            & Asian                                        & 5.2925           & 5.2925          & 1.9               & 3.0625           & 4.005            & 4.12              & 4.675          & 1.3675         &  &  &  &  &  \\
-                            & Black or African American                    & 11.405           & 13.7025         & 1.83              & 5.385            & 13.34            & 5.8175            & 3.1075         & 2.33           &  &  &  &  &  \\
-                            & Native Hawaiian and Pacific Islander         & 0.055            & 0.035           & 0                 & 0.005            & 0.0225           & 0.025             & 0              & 0.015          &  &  &  &  &  \\
-                            & White                                        & 72.6325          & 70.67           & 92.6025           & 88.0875          & 73.2875          & 80.6175           & 88.025         & 88.8725        &  &  &  &  &  \\
-  \textbf{Ethnicity (Percent)}        & Hispanic                                     & 19.53            & 17.8275         & 6.15              & 6.12             & 17.885           & 10.5              & 5.4475         & 11.6375        &  &  &  &  &  \\
-  \textbf{Education (Percent)}        & Associates                                   & 20.74            & 25              & 27.9225           & 26.46            & 24.4175          & 29.2675           & 26.315         & 30.9775        &  &  &  &  &  \\
-                            & Bachelor                                     & 26.53            & 21.4575         & 20.635            & 23.3325          & 18.785           & 18.3175           & 23.4075        & 14.595         &  &  &  &  &  \\
-                            & Graduate Degree                              & 21.14            & 16.475          & 14.6975           & 18.4525          & 16.3425          & 15.18             & 17.865         & 9.55           &  &  &  &  &  \\
-                            & HS Graduate                                  & 21.4725          & 26.7175         & 29.5875           & 26.0275          & 30.565           & 29.46             & 27.03          & 33.5125        &  &  &  &  &  \\
-                            & Less the High School                         & 10.12            & 10.3525         & 7.1575            & 5.7275           & 9.8875           & 7.7725            & 5.385          & 11.365         &  &  &  &  &  \\
-                            &                                              &                  &                 &                   &                  &                  &                   &                &                &  &  &  &  & 
+  \begin{tabular}{lccccc}
+    \toprule
+    \textbf{Category} & \textbf{Fairfield County} & \textbf{Hartford County} & \textbf{Litchfield County} & \textbf{Middlesex County} \\
+    \midrule
+    Total Population & 944,977 & 894,465.25 & 182,657.5 & 163,318.25 \\
+    Race (Percent) & & & & \\
+    \quad American Indian and Alaska Native & 0.24 & 0.3075 & 0.2025 & 0.195 \\
+    \quad Asian & 5.2925 & 5.2925 & 1.9 & 3.0625 \\
+    \quad Black or African American & 11.405 & 13.7025 & 1.83 & 5.385 \\
+    \quad Native Hawaiian and Pacific Islander & 0.055 & 0.035 & 0 & 0.005 \\
+    \quad White & 72.6325 & 70.67 & 92.6025 & 88.0875 \\
+    Ethnicity (Percent) & & & & \\
+    \quad Hispanic & 19.53 & 17.8275 & 6.15 & 6.12 \\
+    Education (Percent) & & & & \\
+    \quad Associates & 20.74 & 25 & 27.9225 & 26.46 \\
+    \quad Bachelor & 26.53 & 21.4575 & 20.635 & 23.3325 \\
+    \quad Graduate Degree & 21.14 & 16.475 & 14.6975 & 18.4525 \\
+    \quad HS Graduate & 21.4725 & 26.7175 & 29.5875 & 26.0275 \\
+    \quad Less than High School & 10.12 & 10.3525 & 7.1575 & 5.7275 \\
+    \bottomrule
   \end{tabular}%
   }
-  \end{table}
-    
+\end{table}
 
-  \begin{figure}[tbp]
-    \label{fig:Income by County Graph}
+\begin{table}[h]
+  \label{tab:Demographics}
+  \caption{Demographics and Education Levels for Counties 5-8}
+  \resizebox{\columnwidth}{!}{%
+  \begin{tabular}{lcccc}
+    \toprule
+    \textbf{Category} & \textbf{New Haven County} & \textbf{New London County} & \textbf{Tolland County} & \textbf{Windham County} \\
+    \midrule
+    Total Population & 858,678 & 268,477.75 & 151,218.75 & 116,608.75 \\
+    Race (Percent) & & & & \\
+    \quad American Indian and Alaska Native & 0.1725 & 0.605 & 0.05 & 0.565 \\
+    \quad Asian & 4.005 & 4.12 & 4.675 & 1.3675 \\
+    \quad Black or African American & 13.34 & 5.8175 & 3.1075 & 2.33 \\
+    \quad Native Hawaiian and Pacific Islander & 0.0225 & 0.025 & 0 & 0.015 \\
+    \quad White & 73.2875 & 80.6175 & 88.025 & 88.8725 \\
+    Ethnicity (Percent) & & & & \\
+    \quad Hispanic & 17.885 & 10.5 & 5.4475 & 11.6375 \\
+    Education (Percent) & & & & \\
+    \quad Associates & 24.4175 & 29.2675 & 26.315 & 30.9775 \\
+    \quad Bachelor & 18.785 & 18.3175 & 23.4075 & 14.595 \\
+    \quad Graduate Degree & 16.3425 & 15.18 & 17.865 & 9.55 \\
+    \quad HS Graduate & 30.565 & 29.46 & 27.03 & 33.5125 \\
+    \quad Less than High School & 9.8875 & 7.7725 & 5.385 & 11.365 \\
+    \bottomrule
+  \end{tabular}%
+  }
+\end{table}
+
+
+
+\begin{figure}[tbp]
+  \label{fig:Income by County Graph}
     \centering
     \includegraphics[width=\textwidth]{Income by County Graph.pdf}
     \caption{Median Income by County.}
   \end{figure}
+
+
+\begin{table}[htbp]
+  \centering
+  \resizebox{\columnwidth}{!}{%
+  \begin{tabular}{lllrrrr}
+  \toprule
+  & & & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{2}{l}{95\% Confidence} \\
+  County 1(I) & County 2(J) & Mean Difference(I-J) & \multicolumn{1}{l}{Std. Error} & \multicolumn{1}{l}{Sig.} & \multicolumn{1}{l}{Lower Bound} & \multicolumn{1}{l}{Upper Bound} \\
+  \midrule
+  Fairfield County & Hartford County & 20565.50000* & 1883.47243 & \textbf{<.001} & 14327.6034 & 26803.3966 \\
+  & Litchfield County & 14919.50000* & 1883.47243 & \textbf{<.001} & 8681.6034 & 21157.3966 \\
+  & Middlesex County & 9671.75000* & 1883.47243 & \textbf{<.001} & 3433.8534 & 15909.6466 \\
+  & New Haven County & 25662.75000* & 1883.47243 & \textbf{<.001} & 19424.8534 & 31900.6466 \\
+  & New London County & 21456.50000* & 1883.47243 & \textbf{<.001} & 15218.6034 & 27694.3966 \\
+  & Tolland County & 8705.00000* & 1883.47243 & \textbf{0.002} & 2467.1034 & 14942.8966 \\
+  & Windham County & 28671.00000* & 1883.47243 & \textbf{<.001} & 22433.1034 & 34908.8966 \\
+  \midrule
+  Hartford County & Fairfield County & -20565.50* & 1883.47 & \textbf{<.001} & -26803.40 & -14327.60 \\
+  & Litchfield County & -5646 & 1883.47 & 0.096 & -11883.90 & 591.90 \\
+  & Middlesex County & -10893.75* & 1883.47 & \textbf{<.001} & -17131.65 & -4655.85 \\
+  & New Haven County & 5097.25 & 1883.47 & 0.169 & -1140.65 & 11335.15 \\
+  & New London County & 891 & 1883.47 & 1 & -5346.90 & 7128.90 \\
+  & Tolland County & -11860.50* & 1883.47 & \textbf{<.001} & -18098.40 & -5622.60 \\
+  & Windham County & 8105.50* & 1883.47 & 0.005 & 1867.60 & 14343.40 \\
+  \midrule
+  Litchfield County & Fairfield County & -14919.50* & 1883.47 & \textbf{<.001} & -21157.40 & -8681.60 \\
+  & Hartford County & 5646 & 1883.47 & 0.096 & -591.90 & 11883.90 \\
+  & Middlesex County & -5247.75 & 1883.47 & 0.145 & -11485.65 & 990.15 \\
+  & New Haven County & 10743.25* & 1883.47 & \textbf{<.001} & 4505.35 & 16981.15 \\
+  & New London County & 6537 & 1883.47 & 0.035 & 299.10 & 12774.90 \\
+  & Tolland County & -6214.5 & 1883.47 & 0.051 & -12452.40 & 23.40 \\
+  & Windham County & 13751.50* & 1883.47 & \textbf{<.001}  & 7513.60 & 19989.40 \\
+  \midrule
+  Middlesex County & Fairfield County & -9671.75* &  & 1883.47 & <.001 & -15909.65 & -3433.85 \\
+  & Hartford County & 10893.75* & 1883.47 & <.001 & 4655.85 & 17131.65 \\
+  & Litchfield County & 5247.75 & 1883.47 & 0.145 & -990.15 & 11485.65 \\
+  & New Haven County & 15991.00* & 1883.47 & <.001 & 9753.10 & 22228.90 \\
+  & New London County & 11784.75* & 1883.47 & <.001 & 5546.85 & 18022.65 \\
+  & Tolland County & -966.75 & 1883.47 & 0.999 & -7204.65 & 5271.15 \\
+  & Windham County & 18999.25* & 1883.47 & <.001 & 12761.35 & 25237.15 \\
+  \midrule
+  New Haven County & Fairfield County & -25662.75* &  & 1883.47 & <.001 & -31900.65 & -19424.85 \\
+  & Hartford County & -5097.25 & 1883.47 & 0.169 & -11335.15 & 1140.65 \\
+  & Litchfield County & -10743.25* & 1883.47 & <.001 & -16981.15 & -4505.35 \\
+  & Middlesex County & -15991.00* & 1883.47 & <.001 & -22228.90 & -9753.10 \\
+  & New London County & -4206.25 & 1883.47 & 0.368 & -10444.15 & 2031.65 \\
+  & Tolland County & -16957.75* & 1883.47 & <.001 & -23195.65 & -10719.85 \\
+  & Windham County & 3008.25 & 1883.47 & 0.747 & -3229.65 & 9246
+  \midrule
+  New London County & Fairfield County & -21456.50* & 1883.47 & <.001 & -27694.40 & -15218.60 \\
+  & Hartford County & -891 & 1883.47 & 1 & -7128.90 & 5346.90 \\
+  & Litchfield County & -6537.00* & 1883.47 & 0.035 & -12774.90 & -299.10 \\
+  & Middlesex County & -11784.75* & 1883.47 & <.001 & -18022.65 & -5546.85 \\
+  & New Haven County & 4206.25 & 1883.47 & 0.368 & -2031.65 & 10444.15 \\
+  & Tolland County & -12751.50* & 1883.47 & <.001 & -18989.40 & -6513.60 \\
+  & Windham County & 7214.50* & 1883.47 & 0.016 & 976.60 & 13452.40 \\
+  \midrule
+  Tolland County & Fairfield County & -8705.00* & 1883.47 & 0.002 & -14942.90 & -2467.10 \\
+  & Hartford County & 11860.50* & 1883.47 & <.001 & 5622.60 & 18098.40 \\
+  & Litchfield County & 6214.50 & 1883.47 & 0.051 & -23.40 & 12452.40 \\
+  & Middlesex County & 966.75 & 1883.47 & 0.999 & -5271.15 & 7204.65 \\
+  & New Haven County & 16957.75* & 1883.47 & <.001 & 10719.85 & 23195.65 \\
+  & New London County & 12751.50* & 1883.47 & <.001 & 6513.60 & 18989.40 \\
+  & Windham County & 19966.00* & 1883.47 & <.001 & 13728.10 & 26203.90 \\
+  \midrule
+  Windham County & Fairfield County & -28671.00* &  & 1883.47 & <.001 & -34908.90 & -22433.10 \\
+  & Hartford County & -8105.50* & 1883.47 & 0.005 & -14343.40 & -1867.60 \\
+  & Litchfield County & -13751.50* & 1883.47 & <.001 & -19989.40 & -7513.60 \\
+  & Middlesex County & -18999.25* & 1883.47 & <.001 & -25237.15 & -12761.35 \\
+  & New Haven County & -3008.25 & 1883.47 & 0.747 & -9246.15 & 3229.65 \\
+  & New London County & -7214.50* & 1883.47 & 0.016 & -13452.40 & -976.60 \\
+  & Tolland County & -19966.00* & 1883.47 & <.001 & -26203.90 & -13728.10 \\
+  \end{tabular}%
+  }
+\end{table}
+    
 
 \section{Discussion}\label{sec:disc}
 
