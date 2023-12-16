@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex manuscript"] 1702686894 "manuscript.aux" "manuscript.bbl" "manuscript" 1702686896 0
-  "../manuscript/ref.bib" 1696897806 3263 41e534a7c01bf182739b3bbc661099e8 ""
+["bibtex manuscript"] 1702696637 "manuscript.aux" "manuscript.bbl" "manuscript" 1702696637 2
+  "./ref.bib" 1702695308 6720 407d1d8dedee67af516624a78d4e6a77 ""
   "/usr/local/texlive/2023/texmf-dist/bibtex/bst/chicago/chicago.bst" 1198629289 37416 2ae04276c51f11eda70770f4081293b7 ""
-  "manuscript.aux" 1702686895 3699 34ecfdd54c6445d405a0160b66c128f1 "pdflatex"
+  "manuscript.aux" 1702696637 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
   (generated)
   "manuscript.bbl"
   "manuscript.blg"
   (rewritten before read)
-["pdflatex"] 1702686894 "/Users/delialin/Desktop/github/stat/course-paper-or-presentation-delialinn/manuscript/manuscript.tex" "manuscript.pdf" "manuscript" 1702686896 0
-  "/Users/delialin/Desktop/github/stat/course-paper-or-presentation-delialinn/manuscript/manuscript.tex" 1702686891 32911 2f335a800ac514759144e44ea87f5c31 ""
+["pdflatex"] 1702696635 "/Users/delialin/Desktop/github/stat/course-paper-or-presentation-delialinn/manuscript/manuscript.tex" "manuscript.pdf" "manuscript" 1702696637 2
+  "/Users/delialin/Desktop/github/stat/course-paper-or-presentation-delialinn/manuscript/manuscript.tex" 1702696634 32311 4bd2cbabe54d32b8f4e05c9406aa8a84 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -118,10 +118,10 @@
   "Education Levels by County.pdf" 1702659275 49599 70a510d39816b11058c8de164dad120a ""
   "Multiple Comparisons by County.pdf" 1702658805 189425 1778bf0a8f7e3db3ddb7471686256c5d ""
   "Social Need by Year.pdf" 1702686796 81551 b8130f4447dcb5fd32b2cc71120381b8 ""
-  "manuscript.aux" 1702686895 3699 34ecfdd54c6445d405a0160b66c128f1 "pdflatex"
-  "manuscript.bbl" 1702686894 1631 7dbeb0440277c3d03922359a98f17467 "bibtex manuscript"
-  "manuscript.out" 1702686895 672 832d157499befed28722a8472ea3c87b "pdflatex"
-  "manuscript.tex" 1702686891 32911 2f335a800ac514759144e44ea87f5c31 ""
+  "manuscript.aux" 1702696637 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "manuscript.bbl" 1702696637 0 d41d8cd98f00b204e9800998ecf8427e "bibtex manuscript"
+  "manuscript.out" 0 -1 0 "pdflatex"
+  "manuscript.tex" 1702696634 32311 4bd2cbabe54d32b8f4e05c9406aa8a84 ""
   (generated)
   "manuscript.aux"
   "manuscript.log"
